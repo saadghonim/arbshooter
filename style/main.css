@@ -226,8 +226,6 @@ html[dir="ltr"] body {
   height: 52px;
   z-index: 367;
 }
-
-
 .input_search:focus{
   border-color: #c00617;
 }
