@@ -1673,7 +1673,7 @@ html[dir="ltr"] .bt_input {
 }
 @media (max-width: 767px){
   .copy_p{
-    width: 50%;
+    width: 70%;
     margin: auto;
   }
 }
