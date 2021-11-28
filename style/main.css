@@ -126,7 +126,7 @@ html[dir="ltr"] body {
   }
   .preloader-sa img {
     margin-inline-end: 5px;
-    width: 60px;
+    width: 110px;
   }
   .h2_ {
     color: #333333;
@@ -390,6 +390,9 @@ display: none;
 }
 .ul_drop_user{
   top: 38px;
+}
+.preloader-sa img {
+  width: 85px;
 }
 }
 /* ~~~~~~~~~~~~~end header~~~~~~~~~~~~~~~~~~ */
