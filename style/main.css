@@ -415,6 +415,9 @@ display: none;
   height: 34px;
   width: 34px;
 }
+.ul_drop_user{
+  top: 38px;
+}
 }
 /* ~~~~~~~~~~~~~end header~~~~~~~~~~~~~~~~~~ */
 
@@ -528,9 +531,9 @@ padding: 25px 0;
     z-index: 20;
     background-color: #ffff;
     overflow-y:auto;
-    padding: 20px 0;
+    padding: 20px 50px;
     z-index: 99;
-    height: 540px;
+    height: 570px;
   }
   .ul_nav{
     flex-direction: column;
@@ -591,6 +594,9 @@ padding: 25px 0;
   -moz-transform: unset;
   -ms-transform: unset;
   -o-transform: unset;
+}
+.h2_ {
+  font-size: 30px;
 }
 }
 /* ~~~~~~~~~~~~~~~~end nav~~~~~~~~~~~~~~~~~~ */
@@ -734,7 +740,7 @@ html[dir="ltr"] .slider .owl-next {
   text-transform: capitalize;
 }
 .most_viewed_parant{
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .most_div{
   text-align: center;
@@ -979,7 +985,7 @@ padding: 15px 0 8px ;
 .bestseller .owl-dots{
   display: block;
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
   transform: translatex(-50%);
   font-size: 18px;
   color: #ffffff;
@@ -1013,7 +1019,9 @@ html[dir="ltr"] .most_viewed .owl-carousel button.owl-dot,
 .bestseller .owl-carousel button.owl-dot.active{
   background-color: #c00617;
 }
-
+.best_seller_parant{
+  margin-bottom: 60px;
+}
 }
 
 /* ~~~~~~~~~~~~~~~~~~~ end most_viewed~~~~~~~~~~~ */
@@ -1066,7 +1074,10 @@ html[dir="ltr"] .most_viewed .owl-carousel button.owl-dot,
     margin-bottom: 15px;
   }
   .big_banner_parant{
-    margin-bottom: 70px;
+    margin-bottom: 60px;
+  }
+  .banner_parant {
+    margin-bottom: 60px;
   }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~end banner~~~~~~~~~~~~~~~~~~~~~~~~ */

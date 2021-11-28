@@ -6,7 +6,7 @@ $("#hamburger").click(function(){
   this.classList.toggle('open');
 });
 if ($(window).width() <= 767){
-  $(".bars_").click(function(){
+  $("#hamburger").click(function(){
     $(".nav_bar").slideToggle("500");
     $(".moboverlay").fadeIn("500")
     $("body").addClass("over_")
