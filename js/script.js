@@ -2,19 +2,22 @@
 $(document).ready(function(){
 
 /*~~~~~~~~~~~~ hamburger ~~~~~~~~~~~ */
-$("#hamburger").click(function(){
-  this.classList.toggle('open');
-});
+
 if ($(window).width() <= 767){
-  $("#hamburger").click(function(){
-    $(".nav_bar").slideToggle("500");
+  $(".bars_").click(function(){
+    $(".nav_bar").toggle("500");
     $(".moboverlay").fadeIn("500")
     $("body").addClass("over_")
   })
-  $(".moboverlay").click(function(){
-    $(".nav_bar").slideToggle("500");
+  $(".close_").click(function(){
+    $(".nav_bar").toggle("500");
     $(".moboverlay").fadeOut("500")
-    $("#hamburger").removeClass("open");
+    $("body").removeClass("over_")
+
+  })
+  $(".moboverlay").click(function(){
+    $(".nav_bar").toggle("500");
+    $(".moboverlay").fadeOut("500")
     $("body").removeClass("over_")
   })
   $(".li_hover").click(function(){
