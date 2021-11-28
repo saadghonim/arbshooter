@@ -126,6 +126,7 @@ html[dir="ltr"] body {
   }
   .preloader-sa img {
     margin-inline-end: 5px;
+    width: 60px;
   }
   .h2_ {
     color: #333333;
@@ -265,6 +266,9 @@ html[dir="ltr"] .btn_search{
   font-size: 16px;
   color: rgb(33, 33, 33);
   margin-inline-end: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 .btn_icon:hover{
@@ -553,6 +557,9 @@ padding: 25px 0;
 .anc_menu img{
   display: none;
 }
+.anc_menu{
+  color: #757575;
+}
 .menu_drop_, .ul_drop_lang{
   opacity: unset;
   visibility: unset;
@@ -569,6 +576,10 @@ padding: 25px 0;
 .ul_menu {
   flex-direction: column;
   align-items: center;
+  padding:5px 0;
+}
+.ul_menu li:not(:last-child){
+  margin-bottom: 5px;
 }
 .menu_drop_{display: none;}
 .ul_nav > li{
@@ -1390,9 +1401,7 @@ html[dir="ltr"] .input_div input {
   .Newsletter {
       padding: 50px 0 40px;
   }
-  .Newsletter .div_text span{
-    font-size: 20px;
-  }
+
   .bt_input {
     width: 115px;
   }
@@ -1619,9 +1628,7 @@ margin: auto;
 .bt_input{
   position: absolute;
 }
-.Newsletter .div_text span{
-  font-size: 22px;
-}
+
 html[dir="rtl"] .bt_input {
   left: 0px;
 }
@@ -1660,4 +1667,10 @@ html[dir="ltr"] .bt_input {
 .visa{
   margin-bottom: 5px;
   max-width: 100%;
+}
+@media (max-width: 767px){
+  .copy_p{
+    width: 50%;
+    margin: auto;
+  }
 }

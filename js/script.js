@@ -98,9 +98,9 @@ $('.Testimonials .owl-carousel').owlCarousel({
 
 
 
-$(window).load(function() {
-  $(".preloader-sa").fadeOut()
-});
+// $(window).load(function() {
+//   $(".preloader-sa").fadeOut()
+// });
 
 });
 
