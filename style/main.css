@@ -344,7 +344,9 @@ html[dir="ltr"] .btn_search{
   visibility: visible;
 }
 
-
+.bars_ {
+  display: none;
+}
 @media(max-width:767px){
   .bars_{
     display: block;
