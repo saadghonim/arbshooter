@@ -201,6 +201,14 @@ html[dir="ltr"] body {
   height: 100%;
   margin: 0 59px 0 20px;
 }
+html[dir="rtl"] .input_div_parant {
+  margin: 0 59px 0 20px;
+
+}
+html[dir="ltr"] .input_div_parant {
+  margin: 0 20px 0 59px;
+
+}
 .input_div_t{
   width: 100%;
   position: relative;
